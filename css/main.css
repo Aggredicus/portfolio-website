@@ -1,4 +1,103 @@
 /********************
-GENERAL
+TABLE OF CONTENTS
 ********************/
 
+/*
+
+I. General
+II. Header
+III. Footer
+IV. Navigation
+V. Details
+
+*/
+
+/********************
+I. GENERAL
+********************/
+
+body {
+	background-color: #B2DFDB;
+}
+
+a{
+  text-decoration: none;
+  color: #4DB6AC;
+}
+
+#wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+
+
+/********************
+II. HEADER
+********************/
+
+header {
+  background: #4DB6AC;
+  border-color: #009688;
+  
+}
+
+h1, h2, h3 {
+  color: #fff;
+}
+
+
+
+/********************
+III. FOOTER
+********************/
+
+footer {
+  text-align: right;
+  margin: 1%;
+  margin-right: 5%;
+}
+
+
+/********************
+IV. NAVIGATION
+********************/
+
+nav {
+
+}
+
+nav a, nav a:visited {
+  color: #fff;
+}
+
+nav a.selected, nav a:hover {
+  color: #000;
+}
+
+nav li {
+  list-style: none;
+  display: block;
+  float: left;
+  margin: 1em;
+}
+
+nav ul {
+  background: #00695C;
+}
+
+/********************
+V. DETAILS
+********************/
+
+#details {
+  margin: 1%;
+  margin-left: 5%;
+
+}
